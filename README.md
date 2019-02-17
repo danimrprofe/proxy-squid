@@ -10,8 +10,8 @@ Se debe configurar:
 
 * La puerta de enlace debe apuntar al router
 * Firefox debe configurarse para utilizar con proxy con datos:
-** IP: IP del servidor proxy
-** Puerto: 3128 u otro puerto configurado
+- IP: IP del servidor proxy
+- Puerto: 3128 u otro puerto configurado
 * Configurar squid: http_port 0.0.0.0:3128
 ## Proxy transparente
 En este caso:
