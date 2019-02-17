@@ -14,8 +14,9 @@ Se debe configurar:
 - Puerto: 3128 u otro puerto configurado
 * Configurar squid: http_port 0.0.0.0:3128
 ## Proxy transparente
-En este caso:
+Características
 * Todas las conexiones pasan por el proxy
+* El cliente no es consciente de estar detrás de un proxy
 
 Es necesario:
 
