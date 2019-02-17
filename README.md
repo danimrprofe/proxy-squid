@@ -12,7 +12,10 @@ Se debe configurar:
 * Firefox debe configurarse para utilizar con proxy con datos:
 - IP: IP del servidor proxy
 - Puerto: 3128 u otro puerto configurado
-* Configurar squid: http_port 0.0.0.0:3128
+* Configurar squid: 
+```
+http_port 0.0.0.0:3128
+```
 ## Proxy transparente
 Características
 * Todas las conexiones pasan por el proxy
@@ -22,5 +25,8 @@ Es necesario:
 
 * Configurar la puerta de enlace del adaptador de red para que apunte a la IP del servidor proxy
 * Firefox debe configurarse sin proxy
-* Squid debe contener la directiva: http_port 0.0.0.0:3128 transparent
+* Squid debe contener la directiva: 
+```
+http_port 0.0.0.0:3128 transparent
+```
 
