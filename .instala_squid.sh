@@ -33,15 +33,4 @@ else
   read -p "reinicio de servicios" parada
   sudo systemctl restart squid
   
- 
 fi
-
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Press h to open a hovercard with more details.
